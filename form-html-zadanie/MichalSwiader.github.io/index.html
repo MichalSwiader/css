@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+	<form action="https://formspree.io/michal@swiader.pl" method="post">   	
+    	<label for="firstname">Imię</label><br />
+        	<input type="text" name="Imię" id="firstname"><br /><br />
+        <label for="surname">Nazwisko</label><br />
+        	<input type="text" name="Nazwisko" id="surname"><br /><br />
+        <label for="email">Email</label><br />
+        	<input type="email" name="Email" id="email"><br /><br />
+        <label for="phonenumber">Telefon</label><br />
+        	<input type="text" name="Numer telefonu" id="phonenumber"><br /><br />
+        <label for="city">Miasto</label><br />   
+        	<select name="Miasto" id="city">
+        		<option value="Kraków">Kraków</option>
+        		<option value="Warszawa">Warszawa</option>
+        		<option value="Gdańsk">Gdańsk</option>
+        	</select><br /><br />
+		<div>
+			Płeć<br />
+				<input type="radio" name="Płeć" id="male" value="Męska">
+					<label for="male">Męska</label><br />
+				<input type="radio" name="Płeć" id="female" value="Żeńska">
+					<label for="female">Żeńska</label><br /><br />
+		</div>          
+        <label for="zgoda">Zgoda na dane</label><br />   
+           <input type="checkbox" id="zgoda" checked required><br /><br />
+        <label for="message">Wiadomość</label><br />       
+	   		<textarea name="Wiadmość" id="message"></textarea><br /><br />
+	   	<input type="submit" value="Wyślij">
+	</form>
+    
+</body>
+</html>

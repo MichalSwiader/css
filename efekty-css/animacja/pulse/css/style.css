@@ -1,0 +1,21 @@
+.square-circle {
+	height: 200px;
+	width: 200px;
+	background-color: fuchsia;
+	animation: infinite pulse 2s ease-in-out;
+}
+
+@keyframes pulse {
+	0%, 100% {
+	height: 200px;
+	width: 200px;
+	background-color: fuchsia;
+	border-radius: 0%; 
+	}
+	50% {
+		height: 300px;
+		width: 300px;
+		background-color: lightsteelblue;
+		border-radius: 50%;
+	}
+}

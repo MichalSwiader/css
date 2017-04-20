@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 0;
+}
+
+.box {
+	width: 25%;
+	height: 500px;
+	padding: 50px;
+	font-size: 16px;
+	float: left;
+	border: 10px solid orange;
+}
+
+/*WAŻNE*/
+
+@media (max-width: 786px) {
+	.box {
+		width: 100%;
+	}
+}
+
+@media (min-width: 786) and (max-width: 992px) {
+	.box {
+		width: 50%;
+	}
+}
+
+
+
+

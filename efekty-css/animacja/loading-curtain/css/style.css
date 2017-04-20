@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: aqua;
+}
+
+#outer {
+	height: 100vh;
+}
+
+.curtain {
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+
+.top.curtain {
+	background-color: bisque;
+	animation: fade-in 1.5s 1;
+	transform-origin: top;
+}
+
+.bottom.curtain {
+	background-color: fuchsia;
+	animation: fade-in 1.5s 1;
+	transform-origin: bottom;
+}
+
+@keyframes fade-in{
+	0% {
+	transform: scaleY(0);
+	}
+	100% {
+	transform: scaleY(1);
+	}	
+}
+
+

@@ -1,0 +1,27 @@
+#p1::before {
+	content: "Przed elementem :) ";
+	color: green;
+	font-weight: bold;
+
+}
+
+#p2::after {
+	content: " za elementem";
+	color: indianred;	
+}
+
+#p3::first-letter {
+	text-transform: uppercase;
+	color: deeppink;	
+}
+
+#p4::first-line {
+	background-color: yellow;
+	
+}
+
+p::selection {
+	background-color: black;
+	color: yellow;
+	
+}

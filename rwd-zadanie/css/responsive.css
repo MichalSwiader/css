@@ -1,0 +1,45 @@
+/*RWD START*/
+
+figure {
+	transition: 0.5s width;	
+	
+}
+
+@media (max-width: 480px) {
+	#gallery {
+		width: 100%;
+	}
+	
+	figure {
+		width: 100%;
+		transition: 1s width ease-in-out;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	#gallery {
+		width: 90%;
+	}
+	figure {
+		width: 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	#gallery {
+		width: 90%;		
+	}
+	figure {
+		width: 45%;
+	}
+}
+
+@media (min-width: 993px) {
+	#gallery {
+		width: 90%;
+	}
+	figure {
+		width: 33%;
+	}
+}
+
+/*RWD END*/

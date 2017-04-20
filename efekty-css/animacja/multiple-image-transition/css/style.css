@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+div#outer {
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}
+
+.col-1-4 {
+	height: 100vh;
+	width: 25%;
+	display: inline-block;
+	float: left;
+	transition: all 0.5s linear;
+}
+
+.background {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 200%;
+	background-repeat: no-repeat;
+	
+}
+
+#background-1 {
+	background-image: url("../images/1.jpg");
+}
+
+#background-2 {
+	background-image: url("../images/2.jpg");
+}
+
+#background-3 {
+	background-image: url("../images/3.jpg");
+}
+
+#background-4 {
+	background-image: url("../images/4.jpg");
+}
+
+.col-1-4:hover {
+	width: 40%;
+}
+
+div#outer:hover .col-1-4:not(:hover) {
+	width: 20%;
+}
+
+.col-1-4:last-child {
+	position: absolute;
+	right: 0;
+}

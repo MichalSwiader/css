@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	color: white;
+}
+
+form {
+	background-color: #213b50;
+	width: 30%;
+	padding: 15px;
+	margin: 0;
+	font-size: 14px;
+	
+	
+}
+
+input, option, select {
+	background-color: #2b4a64;
+	color: white;
+	border: none;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 20px; 
+}
+
+input[type="text","email"] {
+	width: 200px;
+}
+
+div > p {
+	color: white;
+	
+}
+
+input:focus {
+	border: 2px solid white;
+	background-color: #4e708c;
+	
+}
+input[type="submit"] {
+	
+background-color: rgb(0,255,0);
+color: white;
+font-size: 12px;
+width: 100px;
+height: 50px;
+}
+
+textarea {
+	background-color: #2b4a64;
+	width: 200px;
+	height: 100px;
+	border: none;
+	margin-top: 1%;
+}
+	
+	
+	
+	
+}
+	
+
+
+	
+

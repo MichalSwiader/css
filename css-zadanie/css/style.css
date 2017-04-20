@@ -1,0 +1,122 @@
+/* background */
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+/* main-rect */
+
+div#main {
+	height: 310px;
+	width: 310px;
+  	z-index: 1;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -150px;
+	border: 1px solid white;
+}
+
+/* rects */
+
+div#main > div.rects {
+	width: 100px;
+	height: 100px;
+  	z-index: 10;
+	display: inline-block;
+	position: relative;
+}
+
+div.rects:nth-child(1) {
+  	background-color: red;    
+}
+
+div.rects:nth-child(2) {
+  	background-color: blue;
+}
+
+div.rects:nth-child(3) {
+  	background-color: green;    
+}
+
+div.rects:nth-child(4) {
+  	background-color: yellow;    
+}
+
+div.rects:nth-child(5) {
+  	background-color: black;    
+  	
+}
+
+div.rects:nth-child(6) {
+  	background-color: orange;    
+  	
+}
+
+div.rects:nth-child(7) {
+  	background-color: purple;    
+  	
+}
+
+div.rects:nth-child(8) {
+  	background-color: grey;    
+  
+}
+
+div.rects:nth-child(9) {
+ 	background-color: pink;    
+  
+}
+
+/* circles */
+
+div.rects > div.circles{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	border: 1px solid black;
+	z-index: 20;	
+  	position: absolute;
+	left: 25px;
+	top: 25px;
+	
+}
+
+div.rects:nth-child(1) > div.circles  {
+	background-color: pink;
+}
+
+div.rects:nth-child(2) > div.circles {
+	background-color: grey;
+}
+
+div.rects:nth-child(3) > div.circles  {
+	background-color: purple;
+}
+
+div.rects:nth-child(4) > div.circles  {
+	background-color: green;
+}
+
+div.rects:nth-child(5) > div.circles  {
+	background-color: red;
+}
+
+div.rects:nth-child(6) > div.circles  {
+	background-color: blue;
+}
+
+div.rects:nth-child(7) > div.circles  {
+	background-color: orange;
+}
+
+div.rects:nth-child(8) > div.circles  {
+	background-color: yellow;
+}
+
+div.rects:nth-child(9) > div.circles  {
+	background-color: black;
+}

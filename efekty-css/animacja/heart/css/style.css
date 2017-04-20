@@ -1,0 +1,21 @@
+p.iloveyou {
+	font-size: 89px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.fa-heart {
+	color: red;
+	margin: 0 10px;
+	animation: redlove 1.2s infinite;
+}
+
+@keyframes redlove {
+	0%,100% {
+	}
+	50% {
+	transform: scale(1.3);
+	}
+}
+	

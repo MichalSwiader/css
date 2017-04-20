@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form action="https://formspree.io/michal@swiader.pl" method="post">   	
+    	<label for="firstname">Imię:</label><br />
+        	<input type="text" name="Imię:" id="firstname"><br /><br />
+        <label for="surname">Nazwisko:</label><br />
+        	<input type="text" name="Nazwisko:" id="surname"><br /><br />
+        <label for="email">Email:</label><br />
+        	<input type="email" name="Email:" id="email"><br /><br />
+        <label for="phonenumber">Telefon:</label><br />
+        	<input type="text" name="Telefon:" id="phonenumber"><br /><br />
+        <label for="city">Wybierz miasto:</label><br /> 
+        	<select name="Miasto" id="city">
+        		<option value="Kraków">Kraków</option>
+        		<option value="Warszawa">Warszawa</option>
+        		<option value="Gdańsk">Gdańsk</option>
+        	</select><br />
+        <div>
+			Wybierz płeć<br />
+				<input type="radio" name="Płeć" id="male" value="Mężczyzna" checked>
+					<label for="male">Mężczyzna</label><br />
+				<input type="radio" name="Płeć" id="female" value="Żeńska">
+					<label for="female">Kobieta</label><br /><br />
+		</div>        		   
+        <label for="message">Wiadomość</label><br />   
+	   		<textarea name="Wiadomość" id="message"></textarea><br /><br />
+	    <label for="zgoda"></label> 
+           <input type="checkbox" id="zgoda" checked required> Wyrażam zgodę na przetwarzanie danyc osobowych<br /><br />
+	   	<input type="submit" value="SEND">
+	   	
+	</form>
+    
+</body>
+</html>

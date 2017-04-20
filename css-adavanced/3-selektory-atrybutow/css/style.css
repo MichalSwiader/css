@@ -1,0 +1,30 @@
+.klient:nth-child(even) {
+    background-color: beige;
+}
+
+div[suma] {
+    background-color: aqua;    
+}
+
+
+div[suma="1500"] {
+    background-color: coral;    
+}
+
+div[detaliczny~="tak"] {
+    color: darkviolet;
+    
+}
+
+div[detaliczny*="tak"] {
+    color: green;
+    
+}
+
+div[detaliczny^="moze"] {
+    color: crimson;
+}
+
+div[suma$="60"] {
+    color: goldenrod;
+}
